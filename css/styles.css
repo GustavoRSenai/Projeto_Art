@@ -101,7 +101,7 @@ a, i {
 }
 .main-gemeos {
     background-image: url('../img/os\ gemeos.webp');
-    background-size: auto;
+    background-size: cover;
 }
 
 .main-edu {
@@ -206,6 +206,10 @@ a:hover i {
 
 .sombra {
     text-shadow: 5px 5px 5px black;
+}
+.antes, .depois {
+    top: 250px;
+    color: #25282e;
 }
 
 @media screen and (max-width: 430px) {
