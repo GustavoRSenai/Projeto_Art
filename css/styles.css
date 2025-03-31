@@ -5,7 +5,7 @@
 
 body {
     background: url('../img/parede.png')  repeat;
-    background-size:;
+    background-size: contain;
     
 }
 
@@ -16,6 +16,10 @@ a, i {
 
 .secondary-color {
     color: #555;
+}
+
+.primary-color {
+    color: #ffffff;
 }
 
 .center-image {
@@ -40,7 +44,7 @@ a, i {
 #header {
     text-align: center;
     padding: 20px;
-    border-bottom: 2px solid #5e5e5e;
+    border-bottom: 2px solid #ffffff;
 }
 
 #header p {
@@ -67,7 +71,8 @@ a, i {
 
 #navbar a {
     width: 80px;
-    color: #444;
+    color: #ffffff;
+    text-shadow: 5px 5px 5px black;
 }
 
 #navbar a:hover{
@@ -75,11 +80,20 @@ a, i {
 }
 
 /* MAIN IMAGE */
+#main {
+    background-color: #ccccccb9;
+    margin-bottom: ;
+    padding: 30px 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
 .main-image {
     height: 400px;
     background-image: url('../img/g_1.jpg');
-    margin-bottom: 30px;
+    padding: 10px;
     position: relative;
+    border-radius: 10px;
 }
 
 .main-image-info {
@@ -88,27 +102,37 @@ a, i {
     position: absolute;
     left: 25px;
     bottom: 25px;
+    border-radius: 5px;
 }
 
 /* GALLERY */
 #img-2 {
     background-image: url('../img/g_2.jpg');
+    border-radius: 10px;
 }
 
 #img-3 {
     background-image: url('../img/g_3.jpg');
+    border-radius: 10px;
 }
 
 #img-4 {
     background-image: url('../img/g_4.jpg');
+    border-radius: 10px;
 }
 
 #img-5 {
     background-image: url('../img/g_5.jpg');
+    border-radius: 10px;
 }
 
 #img-6 {
     background-image: url('../img/g_6.jpg');
+    border-radius: 10px;
+}
+
+.btn-custom {
+    border-radius: 5px;
 }
 
 #gallery-container h1 {
@@ -120,6 +144,16 @@ a, i {
     margin-bottom: 50px;
 }
 
+
+#gallery-container .col-md-6,
+#gallery-container .col-xs-12 {
+    width: 49%;
+    margin:0 5px 50px 5px;
+    padding: 20px 20px;
+    background-color: #ccccccb9;
+    border-radius: 20px;
+}
+
 .small-image-container {
     height: 250px;
     margin-bottom: 20px;
@@ -127,9 +161,8 @@ a, i {
 
 /* FOOTER */
 footer {
-    border-top: 1px solid #CCC;
+    border-top: 2px solid #ffffff;
     height: 250px;
-    padding: 30px;
 }
 
 footer i {
@@ -151,4 +184,32 @@ footer p {
 
 a:hover i {
     color: #c1b696;
+}
+
+.sombra {
+    text-shadow: 5px 5px 5px black;
+}
+
+@media screen and (max-width: 430px) {
+    #gallery-container .col-md-6,
+    #gallery-container .col-xs-12 {
+        width: 98%;
+        margin: 0px 3px 30px;
+    }
+}
+
+@media (min-width: 430px) and (max-width: 770px) {
+    #gallery-container .col-md-6,
+    #gallery-container .col-xs-12 {
+        width: 49%;
+        margin: 0px 2px 30px;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+    #gallery-container .col-md-6,
+    #gallery-container .col-xs-12 {
+        width: 49%;
+        margin: 0px 2px 30px;
+    }
 }
