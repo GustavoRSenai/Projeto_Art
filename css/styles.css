@@ -79,6 +79,11 @@ a, i {
     color: #c1b696;
 }
 
+#navbar a.active {
+    color: #c1b696;
+    font-weight: bolder;
+  }
+
 /* MAIN IMAGE */
 #main {
     background-color: #ccccccb9;
@@ -88,12 +93,25 @@ a, i {
     margin-bottom: 30px;
 }
 
-.main-image {
+.main-gemeos, .main-nina, .main-edu {
     height: 400px;
-    background-image: url('../img/g_1.jpg');
     padding: 10px;
     position: relative;
     border-radius: 10px;
+}
+.main-gemeos {
+    background-image: url('../img/os\ gemeos.webp');
+    background-size: auto;
+}
+
+.main-edu {
+    background-image: url('../img/Eduardo\ kobra.jpeg');
+    background-size: auto;
+}
+
+.main-nina {
+    background-image: url('../img/Nina_Pandolfo.jpg');
+    background-size: auto;
 }
 
 .main-image-info {
@@ -107,27 +125,27 @@ a, i {
 
 /* GALLERY */
 #img-2 {
-    background-image: url('../img/g_2.jpg');
+    background-image: url('../img/Flip.webp');
     border-radius: 10px;
 }
 
 #img-3 {
-    background-image: url('../img/g_3.jpg');
+    background-image: url('../img/Einstein.jpg');
     border-radius: 10px;
 }
 
 #img-4 {
-    background-image: url('../img/g_4.jpg');
+    background-image: url('../img/Os\ gemeos.jpg');
     border-radius: 10px;
 }
 
 #img-5 {
-    background-image: url('../img/g_5.jpg');
+    background-image: url('../img/cambuci.jpg');
     border-radius: 10px;
 }
 
 #img-6 {
-    background-image: url('../img/g_6.jpg');
+    background-image: url('../img/Beco-do-Batman.jpg');
     border-radius: 10px;
 }
 

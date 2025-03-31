@@ -25,65 +25,110 @@
       <p class="primary-color sombra">"HipHop me ensinou muita coisa usando Grafitti não giz" - Tavin</p>
     </header>
     <nav id="navbar" class="container">
-      <div class="row justify-content-center">
-        <a href="#">Home</a>
-        <a href="#">Projetos</a>
-        <a href="#">Artistas</a>
-        <a href="#">Contato</a>
+      <div class="row justify-content-center navlist">
+        <a href="#logo" class="active">Home</a>
+        <a href="#main">Artistas</a>
+        <a href="#gallery-container">Projetos</a>
+        <a href="#footer">Contato</a>
       </div>
     </nav>
   </div>
   <!-- MAIN IMAGE -->
   <div class="container" id="main">
-    <div class="container" id="main-image-container">
-      <div class="main-image center-image">
-        <div class="main-image-info">
-          <h2>Arte no muro de Davi</h2>
-          <p class="secondary-color">Realizada em 20/05/2021</p>
-          <a href="#" class="btn-custom btn">Detalhes</a>
+    <div class="container">
+      <div class="carousel slide " id="carouselExample" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container" id="main-image-container">
+                  <div class="main-gemeos center-image mb-3">
+                    <div class="main-image-info" aria-label="Os Gêmeos">
+                      <h2>Os gêmeos</h2>
+                      <p class="secondary-color">Nascidos em 1974</p>
+                      <a href="#" class="btn-custom btn">Detalhes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container" id="main-image-container">
+                  <div class="main-nina center-image mb-3">
+                    <div class="main-image-info" aria-label="Nina Pandolfo">
+                      <h2>Nina Pandolfo</h2>
+                      <p class="secondary-color">Nascida em 1977</p>
+                      <a href="#" class="btn-custom btn">Detalhes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container" id="main-image-container">
+                  <div class="main-edu center-image mb-3">
+                    <div class="main-image-info" aria-label="Eduardo Kobra">
+                      <h2>Eduardo Kobra</h2>
+                      <p class="secondary-color">Nascido em 1975</p>
+                      <a href="#" class="btn-custom btn">Detalhes</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <button  class="carousel-control-prev antes" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button  class="carousel-control-next depois" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+
+    <!-- GALLERY -->
+    <div class="container" id="gallery-container">
+      <div class="col-12">
+        <h1 class="primary-color sombra">Grafite em Sampa</h1>
+      </div>
+      <div class="row gx-md-5  justify-content-between">
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-2" aria-label="Aquário Urbano"></div>
+          <h3>Aquário Urbano, Flip</h3>
+          <p class="secondary-color">Realizada em: 26/05/2020</p>
+          <a href="#Flip" class="btn-custom btn" data-bs-toggle="modal" data-bs-target="#Flip">Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-3" aria-label="Albert Einstein, Eduardo Kobra"></div>
+          <h3>Albert Einstein, Eduardo Kobra</h3>
+          <p class="secondary-color">Realizada em: 23/02/2021</p>
+          <a href="#Einstein" class="btn-custom btn" data-bs-toggle="modal" data-bs-target="#Einstein">Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-4" aria-label="Obra de os Gêmeos, SP"></div>
+          <h3>Obra de os Gêmeos, SP</h3>
+          <p class="secondary-color">Realizada em: 19/06/2023</p>
+          <a href="#Gemeos" class="btn-custom btn" data-bs-toggle="modal" data-bs-target="#Gemeos">Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-5" aria-label="Cambuci, Os Gêmeos"></div>
+          <h3>Cambuci, Os Gêmeos</h3>
+          <p class="secondary-color">Realizada em: 12/12/2022</p>
+          <a href="#Cambuci" class="btn-custom btn" data-bs-toggle="modal" data-bs-target="#Cambuci">Detalhes</a>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="small-image-container center-image" id="img-6" aria-label="Beco do batman"></div>
+          <h3>Beco do batman</h3>
+          <p class="secondary-color">Realizada em: 13/02/2018</p>
+          <a href="#becobatman" class="btn-custom btn" data-bs-toggle="modal" data-bs-target="#becobatman">Detalhes</a>
         </div>
       </div>
     </div>
   </div>
-  <!-- GALLERY -->
-  <div class="container" id="gallery-container">
-    <div class="col-12">
-      <h1 class="primary-color sombra">Artes em destaque</h1>
-    </div>
-    <div class="row gx-md-5  justify-content-between">
-      <div class="col-xs-12 col-md-6">
-        <div class="small-image-container center-image" id="img-2"></div>
-        <h3>Obra de Arthur</h3>
-        <p class="secondary-color">Realizada em: 26/01/2018</p>
-        <a href="#" class="btn-custom btn">Detalhes</a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="small-image-container center-image" id="img-3"></div>
-        <h3>Grafite da Av. Paulista</h3>
-        <p class="secondary-color">Realizada em: 14/06/2021</p>
-        <a href="#" class="btn-custom btn">Detalhes</a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="small-image-container center-image" id="img-4"></div>
-        <h3>Arte em conjunto do Metrô</h3>
-        <p class="secondary-color">Realizada em: 19/01/2018</p>
-        <a href="#" class="btn-custom btn">Detalhes</a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="small-image-container center-image" id="img-5"></div>
-        <h3>Obra de Paulo</h3>
-        <p class="secondary-color">Realizada em: 12/12/2015</p>
-        <a href="#" class="btn-custom btn">Detalhes</a>
-      </div>
-      <div class="col-xs-12 col-md-6">
-        <div class="small-image-container center-image" id="img-6"></div>
-        <h3>Grafite no centro da cidade</h3>
-        <p class="secondary-color">Realizada em: 13/02/2012</p>
-        <a href="#" class="btn-custom btn">Detalhes</a>
-      </div>
-    </div>
-  </div>
-  <footer class="container">
+  <footer class="container" id="footer">
     <p class="primary-color sombra">Nos encontre nas redes sociais:</p>
     <div class="row justify-content-center" id="social-icons-container">
       <div class="col-1">
@@ -98,6 +143,109 @@
     </div>
     <p class="primary-color sombra">Art &copy; 2025</p>
   </footer>
+
+  <!-- 1 -->
+  <div class="modal" tabindex="-1" id="Flip">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Aquário Urbano, Flip</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Nome conhecido da arte urbana, Felipe Yung, o Flip, é responsável, junto ao produtor cultural Kleber Pagú​, pela iniciativa Aquário Urbano. O projeto consiste na criação de 13 murais em empenas na região central de São Paulo. Parte da pintura se encontra no cruzamento da rua Major Sertório com a rua Bento Freitas.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2 -->
+  <div class="modal" tabindex="-1" id="Einstein">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Albert Einstein, Eduardo Kobra</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Conhecido mundialmente por seus painéis, telas e murais multicoloridos, o artista Eduardo Kobra pintou recentemente o cientista Albert Einstein andando de bicicleta em um muro da conhecida rua Oscar Freire, em São Paulo.
+            <br>
+          Mais do que um simples desenho, a obra propõe uma reflexão sobre mobilidade, bicicleta e ciclovias. “Sou ciclista, tenho duas bikes”, contou Kobra à nossa videorreporter, Rachel Schein. “Tem que ter segurança para os ciclistas, cada vez mais. Tem que preparar a cidade de uma forma geral, conscientizar. É um trabalho a longo prazo”, declarou.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 -->
+  <div class="modal" tabindex="-1" id="Gemeos">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Obra de os Gêmeos, SP</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Os Gêmeos são uma dupla de irmãos grafiteiros de São Paulo, nascidos em 1974, cujos nomes reais são Otávio Pandolfo e Gustavo Pandolfo. Formados em desenho de comunicação pela Escola Técnica Estadual Carlos de Campos, começaram a pintar grafites em 1990 no bairro em que cresceram, o Cambuci, e gradualmente tornaram-se uma das influências mais importantes na cena paulistana, ajudando a definir um estilo brasileiro de grafite.
+            <br>
+          Os trabalhos da dupla estão presentes em diferentes cidades dos Estados Unidos, Inglaterra, Alemanha, Grécia, Cuba, entre outros países. Os temas vão de retratos de família à crítica social e política; o estilo formou-se tanto pelo hip hop tradicional como pela pichação.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 4 -->
+  <div class="modal" tabindex="-1" id="Cambuci">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Cambuci, Os Gêmeos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Na Rua dos Lavapés você vai encontrar um grande painel que retrata o dia-a-dia da população das periferias, que tem que usar o trem como meio de transporte. Um tema tão cotidiano para os paulistanos retratado com tanta beleza.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 5 -->
+  <div class="modal" tabindex="-1" id="becobatman">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Beco do batman</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este beco é coberto de arte de rua. As paredes das casas são compostas por uma mistura entre a tinta e as plantas. Neste beco, todo graffiti é feito após a permissão do proprietário, a entrada é na Rua Harmonia e termina na Rua Medeiros de Albuquerque.
+            <br>
+          Sua história começou na década de 1980, quando foi encontrado nas paredes do bairro um desenho do homem-morcego dos quadrinhos. O acontecimento atraiu estudantes de artes plásticas, que começaram a fazer desenhos de influência cubista e psicodélica nas paredes do Beco, formando a galeria de paredes totalmente cobertas.
+            
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
 </html>
