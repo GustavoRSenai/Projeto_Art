@@ -17,8 +17,9 @@ Esta página servirá de inspiração para muitas outras página e também servi
 
 Nesta página web foram utilizadas as linguagens 
 <a href="https://github.com/GustavoRSenai/CSS/blob/master/README.md">CSS</a>, 
-<a href="https://github.com/GustavoRSenai/HTML/blob/master/README.md">HTML</a> e 
-<a href="https://github.com/GustavoRSenai/Bootstrap_Intro_GustavoRodrigues">Bootstrap</a>.
+<a href="https://github.com/GustavoRSenai/HTML/blob/master/README.md">HTML</a>,
+<a href="https://github.com/GustavoRSenai/Bootstrap_Intro_GustavoRodrigues">Bootstrap</a> e
+<a href="https://github.com/GustavoRSenai/https://github.com/GustavoRSenai/Introducao_js">JavaScript</a>
 
 
 
